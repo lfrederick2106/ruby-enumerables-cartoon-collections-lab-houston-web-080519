@@ -13,4 +13,5 @@ end
 
 def find_the_cheese(array)
   array.select { |i| i == "cheddar" || i == "gouda" || i == "camembert"}
+  array.join
 end
