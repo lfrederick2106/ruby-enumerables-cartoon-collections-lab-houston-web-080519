@@ -9,7 +9,7 @@ end
 
 def long_planeteer_calls(calls)
   return true if words.any?
-  words.each do |str|
+  calls.each do |str|
     return true unless str.size > 4
 end
 
