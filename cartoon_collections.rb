@@ -12,5 +12,5 @@ def long_planeteer_calls(calls)
 end
 
 def find_the_cheese(array)
-  array.select { |i| i == "cheddar" || i == "gouda" || i == "camembert"}
+  return array.select { |i| i == "cheddar" || i == "gouda" || i == "camembert"}
 end
