@@ -8,7 +8,7 @@ def summon_captain_planet(planeteer_calls)
 end
 
 def long_planeteer_calls(calls)
-  return true if words.any?
+  return true if calls.any?
   calls.each do |str|
     return true if str.size > 4
 end
