@@ -11,6 +11,8 @@ def long_planeteer_calls(calls)
   return true if calls.any?
   calls.each do |str|
     return true if str.size > 4
+      true
+  end
 end
 
 def find_the_cheese# code an argument here
